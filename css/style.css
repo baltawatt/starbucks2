@@ -212,3 +212,40 @@ font-weight: bolder;
     right: -25px;
 
 }
+.footer{
+    background-color: black;
+    padding: 25px 10px;
+}
+.footer_container-usuario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+.footer_user{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.footer__container-social{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__container-social i{
+    color: white;
+    font-size: 20px;
+    
+}
+.footer_container-contact{
+    margin: 10px 10px;
+}
+.footer_contact{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
