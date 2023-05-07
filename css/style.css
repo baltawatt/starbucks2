@@ -249,3 +249,116 @@ font-weight: bolder;
     font-size: 20px;
     padding-top: 10px;
 }
+@media  (min-width: 768px) {
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header_container-user-mobile{
+        display:none;
+    }
+    .header__container-login{
+        display: block;
+    }
+    .bi-person-circle{
+        color: white;
+        font-size: 0px;
+    }
+    .header__container-navegador{
+        display: block;
+    }
+    .header__nav-link{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .main__container-logo{
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+    .main__logo{
+        width: 80%;
+    }
+    .main__container-text{
+        width: 40%;
+
+    }
+    .main__titulo{
+        font-size: 50px;
+    }
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .galeria{
+        background:#006241 ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    .galeria__image{
+        width: 30%;
+        
+     }
+     .contactanos__form{
+        width: 700px;
+     }
+     .contactanos__button{
+        width: 25%;
+    }
+     .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+    }
+    .cards__container-cards{
+        width: 40%;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media  (min-width: 1024px) {
+    .main__logo{
+        width: 450px;
+}
+.main{
+    display: flex;
+    padding: 15px 100px 60px;
+}
+.galeria__image{
+    width: 400px;
+}
+.galeria{
+    justify-content: space-around;
+}
+.contactanos__form{
+    width: 1000px;
+}
+.contactanos__button{
+    width: 20%;
+}
+.cards__container-nav{
+    flex-direction: row;
+}
+.cards__container-nav a{
+    margin-left:30px;
+    width: 100%;
+}
+.cards__container-cards{
+    width: 700px;
+    margin: 0px 20px 15px;
+}
+.footer{
+    height: 300px;
+    align-items: center;
+}
+}
