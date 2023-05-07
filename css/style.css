@@ -39,3 +39,27 @@ align-items: center;
     font-size: 65px;
     padding-right: 10px;
 }
+.main__container-login{
+    display: none;
+}
+.main{
+    margin-top: 130px;
+    padding: 25px 15px 60px;
+    width: 100%;
+}
+.main__titulo{
+    font-size: 70px;
+    line-height: 1.2;
+}
+.main__titulo span{
+    color: #006241;
+}
+.main__description{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+.main__container-text{
+    display: flex;
+    flex-direction: column;
+}
